@@ -1,5 +1,3 @@
-
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -8,10 +6,11 @@
         <title>JSP Page</title>
     </head>
     
-    <% String table = (String) request.getAttribute("table");%>
+    <% String table = (String) request.getAttribute("table"); %>
     
     <body>
-        <h1>Dowan's Favorite Pokemons</h1>
+        <h1>Favorite Pokemons</h1>
+           
         <%= table %>
     
     </body>

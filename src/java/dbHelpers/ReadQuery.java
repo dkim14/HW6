@@ -86,26 +86,26 @@ public class ReadQuery {
                 
                 table += "<tr>";
                 
-                table += "<td>";
-                table += pokemon.getPokemonID();
-                table += "</td>";
+                    table += "<td>";
+                        table += pokemon.getPokemonID();
+                    table += "</td>";
                 
                 
-                table += "<td>";
-                table += pokemon.getPokemonName();
-                table += "</td>";
+                    table += "<td>";
+                        table += pokemon.getPokemonName();
+                    table += "</td>";
                 
                 
-                table += "<td>";
-                table += pokemon.getPokemonType();
-                table += "</td>";
+                    table += "<td>";
+                       table += pokemon.getPokemonType();
+                    table += "</td>";
                 
                 
-                table += "<td>";
-                table += pokemon.getPokemonNumber();
-                table += "</td>";
+                    table += "<td>";
+                         table += pokemon.getPokemonNumber();
+                    table += "</td>";
                 
-                table += "</tr>";
+               table += "</tr>";
                 
             }
         } catch (SQLException ex) {
@@ -114,7 +114,7 @@ public class ReadQuery {
    
         table +="</table>";
     
-                return table;
+              return table;
     
     
     }
