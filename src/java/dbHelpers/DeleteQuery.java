@@ -62,7 +62,7 @@ public class DeleteQuery {
         
         try {
             //set up a string to hold our query
-            String query = "DELETE FROM pokemons WHERE pokemon ID = ?";
+            String query = "DELETE FROM pokemons WHERE pokemonID = ?";
             //creat a preparedstatement using our query string
             PreparedStatement ps = conn.prepareStatement (query);
             //fill in the preeparedstatement
