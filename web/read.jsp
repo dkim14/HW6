@@ -12,6 +12,11 @@
         <h1>Favorite Pokemons</h1>
            
         <%= table %>
-    
+        
+        <br><br>
+        
+        <a href ="add"> Add A New Pokemon </a>
+        
+        
     </body>
 </html>
