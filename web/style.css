@@ -47,6 +47,15 @@ tr:hover {
 
 label{
     color: #696969;
-    padding:20px;  
+    padding:20px;
+    align-content: center;
 }
 
+input[type=text]{
+    text: left;
+    padding-left: 15px;
+    height: 20px;
+} 
+//Don't know where to use Odd&Even
+//tr:nth-child(even){background-color: #F2F2F2}
+//tr:nth-child(odd){background-color: #EDEDED;}
