@@ -6,7 +6,7 @@ h1{
 }
 
 body{
-	background-color: #D2B48C;
+      background-color: #D2B48C;
 	
 }
 table{
@@ -17,7 +17,7 @@ table{
 }
 
 tbody{
-        background-color: #F08080; 
+      background-color: #F08080; 
             
 }
 
@@ -36,7 +36,7 @@ td{
     border:1px solid white; 
     
 }
-th, td {
+th, td{
     border-bottom: 1px solid #ddd;
     vertical-align: bottom;
 }
