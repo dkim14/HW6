@@ -72,10 +72,9 @@ public class ReadQuery {
     
     
         String table="";
-        
-        table += "<table border=1>";
-        
-        try {
+     
+        table += "<table>";
+           try {
             while(this.results.next()){
                 
                 Pokemons pokemon = new Pokemons();
@@ -83,9 +82,9 @@ public class ReadQuery {
                 pokemon.setPokemonName(this.results.getString("pokemonName"));
                 pokemon.setPokemonType(this.results.getString("pokemonType"));
                 pokemon.setPokemonNumber(this.results.getInt("pokemonNumber"));
-                
+                                      
                 table += "<tr>";
-                
+                        
                     table += "<td>";
                         table += pokemon.getPokemonID();
                     table += "</td>";

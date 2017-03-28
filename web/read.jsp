@@ -11,9 +11,22 @@
     
     <body>
         <h1>Favorite Pokemons</h1>
-           
-        <%= table %>
+    
+    <table>
+    
+        <tr>
+            <th>Pokemon ID</th>
+            <th>Pokemon Name</th>
+            <th>Pokemon Type</th>
+            <th>Pokemon Number</th>
+            <th> </th>
+        </tr>
         
+    
+    
+        <%= table %>
+    
+    </table>
         <br><br>
         
         <a href ="add"> Add A New Pokemon </a>
