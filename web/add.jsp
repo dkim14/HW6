@@ -22,8 +22,8 @@
             <label> Pokemon Number </label>
             <input type="text" name="number" value="" size="20"/>
             <br>
+            <input type="reset" name="reset" value="Clear" />
             <input type="submit" name="submit" value="Submit" />
-            
             
         </form>
         
