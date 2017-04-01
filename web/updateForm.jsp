@@ -16,7 +16,7 @@
             
             <br>
             <label> Pokemon ID: </label>
-            <input type="text" name="name" value="<%= pokemon.getPokemonID() %>" size="20" />
+            <input type="text" name="id" value="<%= pokemon.getPokemonID() %>" readonly size="20" />
             <br>
             <label> Pokemon Name: </label>
             <input type="text" name="name" value="<%= pokemon.getPokemonName() %>" size="20" />
