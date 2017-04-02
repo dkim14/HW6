@@ -30,7 +30,9 @@
         <br><br>
         
         <a href ="add"> Add A New Pokemon </a>
-        
+ 
+        <br><br>
+        <a href ="search.jsp"> Search Pokemons </a>
         
     </body>
 </html>
