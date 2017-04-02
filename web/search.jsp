@@ -7,6 +7,14 @@
         <title>Search Pokemons</title>
     </head>
     <body>
+        <div class = "wrap"> <!--div to hold all other divs -->
+            
+            <!--Header-->
+            <%@ include file = "includes/header.jsp" %>
+            <!--Menu-->
+            <%@ include file = "includes/menu.jsp" %>
+            
+            <div class="main"> <!--main div-->
         <h1>Search Pokemons</h1>
         
         <form name="searchForm" action="search" method="get">
@@ -19,6 +27,11 @@
              
          </form>
          
+            </div> <!-- close main div-->
+
+            <!--footer-->
+            <%@ include file = "includes/footer.jsp" %>
+        </div> <!--cose footer div -->
          
      </body>
  </html>

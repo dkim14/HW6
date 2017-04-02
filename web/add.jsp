@@ -9,24 +9,38 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <h1>Add A New Pokemon</h1>
-        
-        <form name="addForm" action="addPokemon" method="get">
-            
-            <label> Pokemon Name: </label>
-            <input type="text" name="name" value="" size="20" />
-            <br>
-            <label> Pokemon Type: </label>
-            <input type="text" name="type" value="" size="20"/>
-            <br>
-            <label> Pokemon Number </label>
-            <input type="text" name="number" value="" size="20"/>
-            <br>
-            <input type="reset" name="reset" value="Clear" />
-            <input type="submit" name="submit" value="Submit" />
-            
-        </form>
-        
-        
+
+        <div class = "wrap"> <!--div to hold all other divs -->
+
+            <!--Header-->
+            <%@ include file = "includes/header.jsp" %>
+            <!--Menu-->
+            <%@ include file = "includes/menu.jsp" %>
+
+            <div class="main"> <!--main div-->
+
+                <h1>Add A New Pokemon</h1>
+
+                <form name="addForm" action="addPokemon" method="get">
+
+                    <label> Pokemon Name: </label>
+                    <input type="text" name="name" value="" size="20" />
+                    <br>
+                    <label> Pokemon Type: </label>
+                    <input type="text" name="type" value="" size="20"/>
+                    <br>
+                    <label> Pokemon Number </label>
+                    <input type="text" name="number" value="" size="20"/>
+                    <br>
+                    <input type="reset" name="reset" value="Clear" />
+                    <input type="submit" name="submit" value="Submit" />
+
+                </form>
+
+            </div> <!-- close main div-->
+
+            <!--footer-->
+            <%@ include file = "includes/footer.jsp" %>
+        </div> <!--cose footer div -->
     </body>
 </html>
