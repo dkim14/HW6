@@ -19,7 +19,7 @@
 
             <div class="main"> <!--main div-->
 
-                <h1>Add A New Pokemon</h1>
+                <h2>Add A New Pokemon</h2>
 
                 <form name="addForm" action="addPokemon" method="get">
 
@@ -27,10 +27,10 @@
                     <input type="text" name="name" value="" size="20" />
                     <br>
                     <label> Pokemon Type: </label>
-                    <input type="text" name="type" value="" size="20"/>
+                    <input type="text" name="type" value="" size="20" />
                     <br>
                     <label> Pokemon Number </label>
-                    <input type="text" name="number" value="" size="20"/>
+                    <input type="text" name="number" value="" size="20" />
                     <br>
                     <input type="reset" name="reset" value="Clear" />
                     <input type="submit" name="submit" value="Submit" />

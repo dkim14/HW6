@@ -16,7 +16,7 @@
 
             <div class="main"> <!--main div-->
             
-                <h1>Pokemons Database</h1>
+                <h2>Pokemons Database</h2>
                 <a href ="read"> View All Pokemons </a>
                 <br><br>
                 <a href ="search.jsp"> Search Pokemons </a>

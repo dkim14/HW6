@@ -19,8 +19,10 @@
 
             <div class="main"> <!--main div-->
 
-                <h1>Favorite Pokemons</h1>
-
+                <h2>Favorite Pokemons</h2>
+                
+                
+                
                 <table>
 
                     <tr>
@@ -31,11 +33,11 @@
                         <th> </th>
                     </tr>
 
-
-
-                    <%= table%>
-
+                    
+                    <%= table %>
+                
                 </table>
+               
                 <br><br>
 
                 <a href ="add"> Add A New Pokemon </a>

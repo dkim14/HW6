@@ -10,10 +10,21 @@
         <title>Update a Pokemon</title>
     </head>
     <body>
-       <h1>Update A Pokemon Record</h1>
+        
+         <div class = "wrap"> <!--div to hold all other divs -->
+            
+            <!--Header-->
+            <%@ include file = "includes/header.jsp" %>
+            <!--Menu-->
+            <%@ include file = "includes/menu.jsp" %>
+            
+            <div class="main"> <!--main div-->
+                
+                
+       <h2>Update A Pokemon Record</h2>
         
         <form name="updateForm" action="updatePokemon" method="get">
-            
+           <table>
             <br>
             <label> Pokemon ID: </label>
             <input type="text" name="id" value="<%= pokemon.getPokemonID() %>" readonly size="20" />
@@ -29,7 +40,14 @@
             <br>
             <input type="reset" name="reset" value="Clear" />
             <input type="submit" name="submit" value="Update" />
-            
+           
         </form>
+            
+            </div> <!-- close main div-->
+
+            <!--footer-->
+            <%@ include file = "includes/footer.jsp" %>
+        </div> <!--cose footer div -->
+         
     </body>
 </html>

@@ -15,14 +15,14 @@
             <%@ include file = "includes/menu.jsp" %>
             
             <div class="main"> <!--main div-->
-        <h1>Search Pokemons</h1>
+        <h2>Search Pokemons</h2>
         
         <form name="searchForm" action="search" method="get">
            
             <input type="text" name="searchVal" value=""/>
             
                 <br>
-             
+             <input type="reset" name="reset" value="Clear" />
              <input type="submit" name="submit" value="Search"/>
              
          </form>
