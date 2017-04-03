@@ -7,8 +7,24 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <h1>Pokemons Database</h1>
-        
-        <a href ="read"> View All Pokemons </a>
+        <div class = "wrap"> <!--div to hold all other divs -->
+
+            <!--Header-->
+            <%@ include file = "includes/header.jsp" %>
+            <!--Menu-->
+            <%@ include file = "includes/menu.jsp" %>
+
+            <div class="main"> <!--main div-->
+            
+                <h2>Pokemons Database</h2>
+                <a href ="read"> View All Pokemons </a>
+                <br><br>
+                <a href ="search.jsp"> Search Pokemons </a>
+            
+            </div> <!-- close main div-->
+            
+        <!--footer-->
+        <%@ include file = "includes/footer.jsp" %>
+       </div> <!--cose footer div -->
     </body>
 </html>
